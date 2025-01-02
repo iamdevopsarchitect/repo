@@ -1,6 +1,7 @@
 #!/bin/bash
 
-USERID=$(ID -U)
+USERID=$(id -u)
+#echo "User id is : $USERID"
 
 if [ $USERID -ne 0 ]
 then
