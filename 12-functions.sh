@@ -4,7 +4,7 @@ USERID=$(id -u)
 #echo "User id is : $USERID"
 
 VALIDATE(){
-    ECHO "EXIT STATUS: $1"
+    echo "EXIT STATUS: $1"
 
 }
 
