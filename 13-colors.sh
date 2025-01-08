@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 R="\e31m"
-G="\e32m"
+G="\e[32m"
 N="\e[0m"
 
 CHECK_ROOT(){
