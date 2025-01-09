@@ -2,9 +2,9 @@
 
 echo "Please enter your username:"
 
-read USERNAME #TAKES INPUT INTO USERNAME variable
+read Username #TAKES INPUT INTO USERNAME variable
 
-echo "Username entered is: $USERNAME"
+echo "Username entered is: $Username"
 
 echo "Please enter your password:"
 
