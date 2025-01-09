@@ -7,4 +7,4 @@ echo "FIRST FRUIT IS ${FRUITS[0]}"
 echo "Second FRUIT IS ${FRUITS[1]}"
 echo "Third FRUIT IS ${FRUITS[2]}"
 
-echo "First FRUIT IS ${FRUITS[@]}"
+echo "All FRUITS are ${FRUITS[@]}"
