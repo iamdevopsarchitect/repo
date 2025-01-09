@@ -31,8 +31,16 @@ VALIDATE(){
 
 }
 
+USAGE(){
+    echo -e "$R USAGE:: $N sudo sh $0 package1 package2 ... "
+    exit 1
+}
 
 CHECK_ROOT
+
+IF [ &# -EQ 0]
+then
+    USAGE
 
 for package in $@ # refers to all argumenrts passed to it
 do
