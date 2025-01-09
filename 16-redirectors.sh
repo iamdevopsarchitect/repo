@@ -15,7 +15,7 @@ Y="\e[33m"
 CHECK_ROOT(){
     if [ $USERID -ne 0 ]
     then
-        echo -E "$R Please run this script with root privilages $N" &>>$LOG_FILE
+        echo -e "$R Please run this script with root privilages $N"  &>>$LOG_FILE
         exit 1
     fi
 }
@@ -30,6 +30,19 @@ VALIDATE(){
     fi
 
 }
+
+USAGE(){
+    echo -e "$R USAGE:: $N sudo sh $0 package1 package2..." 
+    exit 1
+}
+
+CHECK_ROOT(){
+    if [ $# -eq 0 ]
+    then
+        USAGE
+    fi
+}
+
 
 CHECK_ROOT
 
