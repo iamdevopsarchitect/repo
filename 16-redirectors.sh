@@ -36,7 +36,7 @@ USAGE(){
     exit 1
 }
 
-echo "Script started executing at: $(date)"
+echo "Script started executing at: $(date)" &>>$LOG_FILE
 CHECK_ROOT
 
 if [ $# -eq 0 ]
