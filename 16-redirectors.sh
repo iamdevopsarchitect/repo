@@ -38,7 +38,7 @@ USAGE(){
 
 CHECK_ROOT
 
-IF [ &# -EQ 0]
+if [ $# -eq 0]
 then
     USAGE
 
