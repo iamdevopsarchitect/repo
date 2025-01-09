@@ -41,6 +41,7 @@ CHECK_ROOT
 if [ $# -eq 0]
 then
     USAGE
+fi
 
 for package in $@ # refers to all argumenrts passed to it
 do
