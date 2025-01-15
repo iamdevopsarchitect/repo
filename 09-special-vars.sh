@@ -8,4 +8,4 @@ echo "Home directory of current user: $HOME"
 echo "PID of the script excuting now: $$"
 sleep 100 &
 echo "PID of last backgrond command: $!"
-echo "status of last command is: "$?""
+echo "status of last command is: $?"
