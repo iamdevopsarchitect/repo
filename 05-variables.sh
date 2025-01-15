@@ -2,7 +2,7 @@
 
 echo "Please enter your name:"
 
-read Username #TAKES INPUT INTO USERNAME variable
+read name #TAKES INPUT INTO USERNAME variable
 
 echo "Your name is: $name"
 
